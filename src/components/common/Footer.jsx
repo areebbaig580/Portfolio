@@ -12,8 +12,8 @@ const Footer = () => {
         <div className='h-fit w-full bg-gray-100 pt-[5vh]'>
             <div className='h-fit w-full flex flex-col items-center'>
                 <Available />
-                <div className='text-3xl md:text-7xl font-semibold uppercase tracking-tight mt-10'>Have a Project in mind?</div>
-                <div className='w-full md:w-[55vw] mt-5 text-14 md:text-lg text-center'>I'm always looking for the next interesting problem to solve. Right now,
+                <div className='text-2xl md:text-7xl font-semibold uppercase tracking-tight mt-10'>Have a Project in mind?</div>
+                <div className='w-full md:w-[55vw] mt-5 text-sm md:text-lg text-center'>I'm always looking for the next interesting problem to solve. Right now,
                     I'm open to internships, freelance projects, and collaborations of all kinds — big or small. If you've got something in mind,
                     I'd love to help bring it to life.</div>
                 <div className='h-fit w-fit px-4 py-2 bg-black text-gray-200 text-lg font-semibold rounded-3xl cursor-pointer mt-8 b border-5 border-gray-500'>Contact Me</div>

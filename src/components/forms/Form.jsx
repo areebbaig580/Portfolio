@@ -25,23 +25,23 @@ const Form = () => {
     return (
         <form ref={form} onSubmit={sendEmail} className='h-fit w-full md:w-[40vw] mt-5 md:mt-10 md:mr-30 flex flex-col gap-8'>
             <div className='border-b border-gray-300 flex flex-col gap-2 px-2'>
-                <div className='text-xl font-semibold'>Your Name</div>
-                <input type="text" className='w-full outline-none border-none mb-4 text-xl' name='name' placeholder='Full Name' />
+                <div className='md:text-xl font-semibold'>Your Name</div>
+                <input type="text" className='w-full outline-none border-none mb-2 md:mb-4 md:text-xl' name='name' placeholder='Full Name' />
             </div>
             <div className='border-b border-gray-300 flex flex-col gap-2 px-2'>
-                <div className='text-xl font-semibold'>Your Email</div>
-                <input type="text" className='w-full outline-none border-none mb-4 text-xl' name='email' placeholder='Email Address' />
+                <div className='md:text-xl font-semibold'>Your Email</div>
+                <input type="text" className='w-full outline-none border-none mb-2 md:mb-4 md:text-xl' name='email' placeholder='Email Address' />
             </div>
             <div className='border-b border-gray-300 flex flex-col gap-2 px-2'>
-                <div className='text-xl font-semibold'>Project Enquiry</div>
-                <input type="text" className='w-full outline-none border-none mb-4 text-xl' name='subject' placeholder='Project Enquiry' />
+                <div className='md:text-xl font-semibold'>Project Enquiry</div>
+                <input type="text" className='w-full outline-none border-none mb-2 md:mb-4 md:text-xl' name='subject' placeholder='Project Enquiry' />
             </div>
             <div className='border-b border-gray-300 flex flex-col gap-2 px-2'>
-                <div className='text-xl font-semibold'>Project Description</div>
-                <textarea name="message" className='w-full outline-none border-none mb-4 text-xl' placeholder='Project Description'></textarea>
+                <div className='md:text-xl font-semibold'>Project Description</div>
+                <textarea name="message" className='w-full outline-none border-none mb-2 md:mb-4 md:text-xl' placeholder='Project Description'></textarea>
             </div>
 
-            <input type='submit' value='Submit Inquiry' className='h-fit w-fit px-4 py-4 bg-black text-white text-xl font-semibold rounded-2xl cursor-pointer uppercase'/>
+            <input type='submit' value='Submit Inquiry' className='h-fit w-fit px-2 py-2 md:px-4 md:py-4 bg-black text-white md:text-xl font-semibold rounded-xl md:rounded-2xl cursor-pointer uppercase'/>
 
         </form>
     )

@@ -7,7 +7,7 @@ const LeftText = () => {
       <div className='flex flex-col gap-2'>
 
           <div className='text-2xl md:text-5xl font-semibold'>Hey its,</div>
-          <span className='uppercase tracking-wider text-transparent [-webkit-text-stroke:2px_black] md:text-6xl text-5xl font-bold'>Areeb baig</span>
+          <span className='uppercase tracking-wider text-transparent [-webkit-text-stroke:1px_black] md:[-webkit-text-stroke:2px_black] md:text-6xl text-5xl font-bold'>Areeb baig</span>
           <div className='flex flex-col mt-5 gap-2 md:gap-1'>
             <div className='text-sm md:text-xl'>Frontend Developer from India.</div>
             <div className='text-sm md:text-xl'>Crafting modern, responsive interfaces.</div>
