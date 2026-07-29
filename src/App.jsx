@@ -9,7 +9,7 @@ import About from './pages/About'
 
 const App = () => {
   return (
-    <div className='px-2 h-full w-full overflow-hidden flex flex-col'>
+    <div className='px-2 h-full w-full flex flex-col'>
       <Nav/>
       <Home/>
       <Projects/>

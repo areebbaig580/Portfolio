@@ -6,7 +6,7 @@ import Bottom from '../components/home/Bottom'
 
 const Home = () => {
     return (
-        <div className='min-h-[100vh] w-full flex px-2 md:px-4 pt-20 md:pt-[15vh] flex-col'>
+        <div className='min-h-[100vh] w-full flex px-2 md:px-4 pt-20 md:pt-[15vh] flex-col' id='home'>
             <div className='h-fit w-full flex flex-col justify-evenly md:flex-row'>
                 <LeftText />
                 <RightText />
