@@ -13,7 +13,7 @@ const Nav = () => {
         <FontAwesomeIcon icon={faCode} size='sm'/>
         areeb.dev
       </div>
-      <div className='flex w-full items-center justify-evenly gap-4 pr-10'>
+      <div className='flex w-full items-center justify-evenly md:justify-end gap-4 pr-10'>
         <div className='hover:cursor-pointer hover:font-bold' onClick={()=> scrollTo('home')}>Home</div>
         <div className='hover:cursor-pointer hover:font-bold' onClick={()=> scrollTo('projects')}>Projects</div>
         <div className='hover:cursor-pointer hover:font-bold' onClick={()=> scrollTo('about')}>About me</div>
