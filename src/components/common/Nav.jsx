@@ -8,7 +8,7 @@ const Nav = () => {
   };
 
   return (
-    <div className='flex px-2 py-2 h-fit w-full items-center justify-between border-b-1 border-gray-300 fixed top-0 bg-white'>
+    <div className='flex px-2 py-2 h-fit w-full items-center justify-between border-b-1 border-gray-300 fixed top-0 bg-white z-100'> 
       <div className='text-lg font-semibold flex items-center gap-1'>
         <FontAwesomeIcon icon={faCode} size='sm'/>
         areeb.dev
