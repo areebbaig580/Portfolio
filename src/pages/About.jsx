@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const About = () => {
   return (
-    <div className='min-h-[100vh] w-full md:px-2 md:px-10 scroll-mt-12' id='about'>
+    <div className='min-h-[100vh] w-full md:px-2 md:px-10 scroll-mt-18 md:scroll-mt-12' id='about'>
       <div className='uppercase text-4xl md:text-6xl font-semibold mb-5'>About Me</div>
       <div className='flex flex-col '>
         <div className='flex flex-col md:flex-row justify-evenly gap-2'>

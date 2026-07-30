@@ -61,7 +61,7 @@ const Projects = () => {
     },
   ];
   return (
-    <div className='min-h-[90vh] w-full flex px-2 md:px-10 flex-col mb-4 scroll-mt-12 relative' id='projects'>
+    <div className='min-h-[90vh] w-full flex px-2 md:px-10 flex-col mb-4 scroll-mt-18 md:scroll-mt-12 relative' id='projects'>
       <div className='uppercase text-4xl md:text-6xl font-semibold mb-5'>Projects</div>
       
       <div className='h-fit w-fit flex flex-wrap gap-10 mt-4 justify-center'>
