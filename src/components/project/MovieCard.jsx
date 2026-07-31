@@ -4,7 +4,7 @@ import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 
 const MovieCard = ({ name, img, labels, tech , link}) => {
     return (
-        <div className='h-fit w-fit cursor-pointer group relative' tabIndex={1}>
+        <div className='h-fit w-fit cursor-pointer group relative' tabIndex={0}>
 
             <img src={img} alt="" className='h-[30vh] md:h-[40vh]' />
 
