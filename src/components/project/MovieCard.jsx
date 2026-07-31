@@ -9,7 +9,7 @@ const MovieCard = ({ name, img, labels, tech , link}) => {
             <img src={img} alt="" className='h-[30vh] md:h-[40vh]' />
 
             <a href={link}
-                className='hidden group-hover:flex absolute top-4 right-4 h-fit w-fit px-2 py-1
+                className='flex md:hidden md:group-hover:flex absolute top-4 right-4 h-fit w-fit px-2 py-1
                bg-black/50 text-white rounded-xl items-center gap-2'
             >Redirect <FontAwesomeIcon icon={faArrowUpRightFromSquare} className='text-sm text-white' />
             </a>
