@@ -21,7 +21,7 @@ const Projects = () => {
     },
     {
       name: "Pomoductivity",
-      image: "/pomoductivity.png",
+      image: "/pomoductivity-pro.png",
       liveLink: "https://pomoductivity-pro.vercel.app/",
       labels: [
         "Pomodoro",
