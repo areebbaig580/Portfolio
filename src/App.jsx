@@ -5,18 +5,22 @@ import Projects from './pages/Projects'
 import Contact from './pages/Contact'
 import Footer from './components/common/Footer'
 import About from './pages/About'
+import { Route, Routes } from 'react-router-dom'
+import AllProjects from './pages/AllProjects'
 
 
 const App = () => {
   return (
+  
     <div className='px-2 h-full w-full flex flex-col'>
-      <Nav/>
-      <Home/>
-      <Projects/>
-      <About/>
-      <Contact/>
+    <Routes>
+      <Route path='/' element={<Home/>} />
+      <Route path='/Projects' element={<AllProjects/>}/>
+    </Routes>
+      
       <Footer/>
     </div>
+  
   )
 }
 

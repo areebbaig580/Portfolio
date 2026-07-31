@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import MovieCard from '../components/project/MovieCard';
 import {ArrowUpRight} from 'lucide-react'
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
   const projects = [
@@ -70,7 +71,7 @@ const Projects = () => {
           <MovieCard name={p.name} img={p.image} labels={p.labels} tech={p.tech} key={index} link={p.liveLink} />
         ))}
       </div>
-        <div className='my-4 md:text-lg rounded-xl border-1 border-[#aeaeae] h-fit w-fit px-2 py-1 absolute top-5 right-2 md:right-[15vw] cursor-pointer flex gap-1 items-center'> View all projects <ArrowUpRight size={20} /></div>
+        <Link className='my-4 md:text-lg rounded-xl border-1 border-[#aeaeae] h-fit w-fit px-2 py-1 absolute top-5 right-2 md:right-[15vw] cursor-pointer flex gap-1 items-center' to={'/Projects'}> View all projects <ArrowUpRight size={20} /></Link>
      
         
     </div>

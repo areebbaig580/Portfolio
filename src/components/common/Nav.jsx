@@ -1,6 +1,6 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCode } from '@fortawesome/free-solid-svg-icons';
+import Brand from './Brand';
+
 
 const Nav = () => {
   const scrollTo = (id) => {
@@ -9,10 +9,7 @@ const Nav = () => {
 
   return (
     <div className='flex flex-col md:flex-row px-2 py-2 h-fit w-full md:items-center justify-between border-b-1 border-gray-300 fixed top-0 bg-white z-100'> 
-      <div className='text-lg font-semibold flex items-center gap-1'>
-        <FontAwesomeIcon icon={faCode} size='sm'/>
-        areeb.dev
-      </div>
+      <Brand/>
       <div className='flex w-full items-center justify-evenly md:justify-end gap-4 pr-10'>
         <div className='hover:cursor-pointer hover:font-bold' onClick={()=> scrollTo('home')}>Home</div>
         <div className='hover:cursor-pointer hover:font-bold' onClick={()=> scrollTo('projects')}>Projects</div>
