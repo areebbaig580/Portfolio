@@ -13,7 +13,7 @@ const Bottom = () => {
             </div>
             <div className='h-fit w-fit flex flex-col items-center'>
                 <div className='text-2xl md:text-3xl font-semibold'>100%</div>
-                <div className='text-sm md:text-lg text-gray-600 text-center'>responsive</div>
+                <div className='text-sm md:text-lg text-gray-600 text-center'>Responsive</div>
             </div>
             <div className='h-fit w-fit flex flex-col items-center'>
                 <div className='text-2xl md:text-3xl font-semibold'>5+</div>
