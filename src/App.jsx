@@ -7,20 +7,22 @@ import Footer from './components/common/Footer'
 import About from './pages/About'
 import { Route, Routes } from 'react-router-dom'
 import AllProjects from './pages/AllProjects'
+import ScrollToTop from './components/common/ScrollToTOp'
 
 
 const App = () => {
   return (
-  
+
     <div className='px-2 h-full w-full flex flex-col'>
-    <Routes>
-      <Route path='/' element={<Home/>} />
-      <Route path='/Projects' element={<AllProjects/>}/>
-    </Routes>
-      
-      <Footer/>
+      <ScrollToTop />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/Projects' element={<AllProjects />} />
+      </Routes>
+
+      <Footer />
     </div>
-  
+
   )
 }
 
