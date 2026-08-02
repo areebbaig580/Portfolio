@@ -1,5 +1,7 @@
 import React from 'react'
 import Form from '../components/forms/Form'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faContactBook, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 
 const Contact = () => {
   return (
@@ -9,6 +11,11 @@ const Contact = () => {
         <div className='uppercase text-5xl md:text-8xl font-semibold tracking-tighter'>Lets,</div>
         <div className='uppercase text-5xl md:text-8xl font-semibold tracking-tighter'>Collaborate</div>
         <div className='uppercase text-5xl md:text-8xl font-semibold tracking-tighter'>Together!</div>
+        <div className='flex flex-col mt-2 pl-2 gap-2'>
+
+        <a href='mailto:areebbig580@gmail.com' className='flex items-center gap-2'><FontAwesomeIcon icon={faEnvelope}/> areebbaig580@gmail.com</a>
+        <a href="callto:+91 6396892198" className='flex items-center gap-2'><FontAwesomeIcon icon={faPhone}/> +91 6396892198</a>
+        </div>
 
       </div>
       <Form/>
