@@ -7,7 +7,7 @@ import Footer from './components/common/Footer'
 import About from './pages/About'
 import { Route, Routes } from 'react-router-dom'
 import AllProjects from './pages/AllProjects'
-import ScrollToTop from './components/common/ScrollToTOp'
+import ScrollToTop from './components/common/ScrollToTop'
 
 
 const App = () => {
