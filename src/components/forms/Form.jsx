@@ -26,19 +26,19 @@ const Form = () => {
         <form ref={form} onSubmit={sendEmail} className='h-fit w-full md:w-[40vw] mt-5 md:mt-0 md:mr-30 flex flex-col gap-8'>
             <div className='border-b border-gray-300 flex flex-col gap-2 px-2'>
                 <div className='md:text-xl font-semibold'>Your Name</div>
-                <input type="text" className='w-full outline-none border-none mb-2 md:mb-4 md:text-xl' name='name' placeholder='Full Name' />
+                <input type="text" className='w-full outline-none border-none mb-2 md:mb-4 md:text-xl' name='name' placeholder='Full Name' required/>
             </div>
             <div className='border-b border-gray-300 flex flex-col gap-2 px-2'>
                 <div className='md:text-xl font-semibold'>Your Email</div>
-                <input type="text" className='w-full outline-none border-none mb-2 md:mb-4 md:text-xl' name='email' placeholder='Email Address' />
+                <input type="text" className='w-full outline-none border-none mb-2 md:mb-4 md:text-xl' name='email' placeholder='Email Address' required/>
             </div>
             <div className='border-b border-gray-300 flex flex-col gap-2 px-2'>
                 <div className='md:text-xl font-semibold'>Project Enquiry</div>
-                <input type="text" className='w-full outline-none border-none mb-2 md:mb-4 md:text-xl' name='subject' placeholder='Project Enquiry' />
+                <input type="text" className='w-full outline-none border-none mb-2 md:mb-4 md:text-xl' name='subject' placeholder='Project Enquiry' required/>
             </div>
             <div className='border-b border-gray-300 flex flex-col gap-2 px-2'>
                 <div className='md:text-xl font-semibold'>Project Description</div>
-                <textarea name="message" className='w-full outline-none border-none mb-2 md:mb-4 md:text-xl' placeholder='Project Description'></textarea>
+                <textarea name="message" className='w-full outline-none border-none mb-2 md:mb-4 md:text-xl' placeholder='Project Description' required></textarea>
             </div>
 
             <input type='submit' value='Submit Inquiry' className='h-fit w-fit px-2 py-2 md:px-4 md:py-4 bg-black text-white md:text-xl font-semibold rounded-xl md:rounded-2xl cursor-pointer uppercase'/>
