@@ -13,8 +13,8 @@ const Contact = () => {
         <div className='uppercase text-5xl md:text-8xl font-semibold tracking-tighter'>Together!</div>
         <div className='flex flex-col mt-2 pl-2 gap-2'>
 
-        <a href='mailto:areebbig580@gmail.com' className='flex items-center gap-2'><FontAwesomeIcon icon={faEnvelope}/> areebbaig580@gmail.com</a>
-        <a href="callto:+91 6396892198" className='flex items-center gap-2'><FontAwesomeIcon icon={faPhone}/> +91 6396892198</a>
+        <a href='mailto:areebbig580@gmail.com' className='flex items-center gap-2 text-[#363636]'><FontAwesomeIcon icon={faEnvelope}/> areebbaig580@gmail.com</a>
+        <a href="callto:+91 6396892198" className='flex items-center gap-2 text-[#363636]'><FontAwesomeIcon icon={faPhone}/> +91 6396892198</a>
         </div>
 
       </div>

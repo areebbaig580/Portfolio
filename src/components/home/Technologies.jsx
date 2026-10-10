@@ -1,10 +1,9 @@
-import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCss, faCss3, faHtml5, faJava, faJs, faPhoenixFramework, faReact, faTailwindCss, faTypescript } from '@fortawesome/free-brands-svg-icons'
+import { faCss, faHtml5, faJs, faReact, faTailwindCss } from '@fortawesome/free-brands-svg-icons'
 
 const Technologies = () => {
     return (
-        <div className='flex gap-5 md:gap-8 mt-10 md:mt-5 w-full justify-start md:justify-end h-fit w-fit flex-wrap'>
+        <div className='flex gap-5 md:gap-8 mt-10 md:mt-5 justify-between md:justify-end h-fit w-full flex-wrap'>
             <div className='h-fit w-fit  flex flex-col gap-2 items-center'>
                 <FontAwesomeIcon icon={faHtml5} className='text-3xl md:text-4xl text-orange-400' />
                 Html

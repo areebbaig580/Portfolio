@@ -24,32 +24,36 @@ const About = () => {
           <div className='text-xl md:text-2xl font-semibold'>Quick Facts</div>
 
           <div className='flex gap-5 justify-evenly h-fit w-full flex-col md:flex-row'>
-            <div className='md:text-lg h-fit w-full md:w-fit bg-[#f5f5f5] px-4 py-2 rounded-xl'>
-              <div className='md:text-xl font-semibold mb-2'>Information</div>
-              <div>Areeb</div>
-              <div>B.Tech Computer Science Engineering</div>
-              <div>IILM University</div>
-              <div>India</div>
+            <div className='md:text-lg h-fit w-full md:w-fit px-4 py-2 rounded-xl border border-[#474747] md:border-0'>
+              <div className='md:text-xl font-bold mb-2'>Information</div>
+              <ul className="list-disc list-inside">
+                <li>Areeb</li>
+                <li>B.Tech Computer Science Engineering</li>
+                <li>IILM University</li>
+                <li>India</li>
+              </ul>
             </div>
-            <div className='md:text-lg h-fit w-full md:w-fit bg-[#f5f5f5] px-4 py-2 rounded-xl'>
-              <div className='md:text-xl font-semibold mb-2'>Interests</div>
-              <div>Frontend Development</div>
-              <div> UI/UX Design</div>
-              <div>Productivity Systems</div>
-              <div>Fitness</div>
-              <div>Travelling</div>
+            <div className='md:text-lg h-fit w-full md:w-fit px-4 py-2 rounded-xl border border-[#474747] md:border-0'>
+              <div className='md:text-xl font-bold mb-2'>Interests</div>
+              <ul className="list-disc list-inside">
+                <li>Frontend Development</li>
+                <li> UI/UX Design</li>
+                <li>Productivity Systems</li>
+                <li>Fitness</li>
+                <li>Travelling</li>
+              </ul>
             </div>
-            <div className='md:text-lg h-fitw-full md:w-fit bg-[#f5f5f5] px-4 py-2 rounded-xl'>
-              
-              <div className='md:text-xl font-semibold mb-2'>Current Goals</div>
-              <div>Landing a Frontend Internship</div>
-              <div>AI Integration in Projects</div>
-              <div>Backend Development</div>
-              <div>Exploring Data Sciemce</div>
+            <div className='md:text-lg h-fitw-full md:w-fit px-4 py-2 rounded-xl border border-[#474747] md:border-0'>
+              <div className='md:text-xl font-bold mb-2'>Current Goals</div>
+              <ul className="list-disc list-inside">
+
+                <li>Landing a Frontend Internship</li>
+                <li>AI Integration in Projects</li>
+                <li>Backend Development</li>
+                <li>Exploring Data Sciemce</li>
+              </ul>
             </div>
           </div>
-
-
         </div>
       </div>
     </div>
