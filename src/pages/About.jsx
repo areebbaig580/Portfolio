@@ -23,8 +23,8 @@ const About = () => {
         <div className='mt-5 flex flex-col items-center gap-5 mb-5 md:mb-0'>
           <div className='text-xl md:text-2xl font-semibold'>Quick Facts</div>
 
-          <div className='flex gap-5 justify-evenly h-fit w-full flex-col md:flex-row'>
-            <div className='md:text-lg h-fit w-full md:w-fit px-4 py-2 rounded-xl border border-[#474747] md:border-0'>
+          <div className='flex gap-2 justify-evenly h-fit w-full flex-col md:flex-row'>
+            <div className='md:text-lg h-fit w-full md:w-fit px-4 py-2 rounded-xl '>
               <div className='md:text-xl font-bold mb-2'>Information</div>
               <ul className="list-disc list-inside">
                 <li>Areeb</li>
@@ -33,7 +33,7 @@ const About = () => {
                 <li>India</li>
               </ul>
             </div>
-            <div className='md:text-lg h-fit w-full md:w-fit px-4 py-2 rounded-xl border border-[#474747] md:border-0'>
+            <div className='md:text-lg h-fit w-full md:w-fit px-4 py-2 rounded-xl '>
               <div className='md:text-xl font-bold mb-2'>Interests</div>
               <ul className="list-disc list-inside">
                 <li>Frontend Development</li>
@@ -43,7 +43,7 @@ const About = () => {
                 <li>Travelling</li>
               </ul>
             </div>
-            <div className='md:text-lg h-fitw-full md:w-fit px-4 py-2 rounded-xl border border-[#474747] md:border-0'>
+            <div className='md:text-lg h-fitw-full md:w-fit px-4 py-2 rounded-xl'>
               <div className='md:text-xl font-bold mb-2'>Current Goals</div>
               <ul className="list-disc list-inside">
 
