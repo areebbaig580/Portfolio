@@ -77,9 +77,10 @@ const AllProjects = () => {
                 "Responsive interface"
             ],
             techStack: [
-                "React",
+                "HTML",
+                "CSS",
                 "JavaScript",
-                "Tailwind CSS",
+                "Chart.js",
                 "Local Storage"
             ],
             liveLink: "https://habitly-areeb-baig.vercel.app/",

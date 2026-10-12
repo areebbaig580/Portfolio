@@ -13,7 +13,7 @@ const LeftText = () => {
             <div className='text-sm md:text-xl'>Turning ideas into interactive products.</div>
           </div>
           <div className='h-fit w-fit bg-white text-black md:text-lg mt-5 md:mt-10 px-4 py-2 border border-black
-           rounded-2xl cursor-pointer font-semibold select-none btn'>Download CV</div>
+           rounded-2xl cursor-pointer transition duration-300 ease-in hover:bg-black hover:text-white font-semibold select-none '>Download CV</div>
         </div>
        
         <div className='hidden md:flex'>
