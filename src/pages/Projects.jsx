@@ -71,7 +71,8 @@ const Projects = () => {
           <MovieCard name={p.name} img={p.image} labels={p.labels} tech={p.tech} key={index} link={p.liveLink} />
         ))}
       </div>
-        <Link className='my-4 md:text-lg rounded-xl border-1 border-[#aeaeae] h-fit w-fit px-2 py-1 absolute top-5 right-2 md:right-[15vw] cursor-pointer flex gap-1 items-center' to={'/Projects'}> View all projects <ArrowUpRight size={20} /></Link>
+        <Link className='my-4 md:text-lg rounded-xl h-fit w-fit px-2 py-1 absolute top-5 right-2 md:right-[15vw]  flex gap-1 items-center bg-white text-black  border border-[#888]
+            cursor-pointer transition duration-300 ease-in hover:bg-black hover:text-white font-semibold select-none' to={'/Projects'}> View all projects <ArrowUpRight size={20} /></Link>
      
         
     </div>

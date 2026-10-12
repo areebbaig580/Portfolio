@@ -25,7 +25,7 @@ const About = () => {
 
           <div className='flex gap-2 justify-evenly h-fit w-full flex-col md:flex-row'>
             <div className='md:text-lg h-fit w-full md:w-fit px-4 py-2 rounded-xl '>
-              <div className='md:text-xl font-bold mb-2'>Information</div>
+              <div className='text-xl font-bold mb-2'>Information</div>
               <ul className="list-disc list-inside">
                 <li>Areeb</li>
                 <li>B.Tech Computer Science Engineering</li>
@@ -34,7 +34,7 @@ const About = () => {
               </ul>
             </div>
             <div className='md:text-lg h-fit w-full md:w-fit px-4 py-2 rounded-xl '>
-              <div className='md:text-xl font-bold mb-2'>Interests</div>
+              <div className='text-xl font-bold mb-2'>Interests</div>
               <ul className="list-disc list-inside">
                 <li>Frontend Development</li>
                 <li> UI/UX Design</li>
@@ -44,7 +44,7 @@ const About = () => {
               </ul>
             </div>
             <div className='md:text-lg h-fitw-full md:w-fit px-4 py-2 rounded-xl'>
-              <div className='md:text-xl font-bold mb-2'>Current Goals</div>
+              <div className='text-xl font-bold mb-2'>Current Goals</div>
               <ul className="list-disc list-inside">
 
                 <li>Landing a Frontend Internship</li>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Bottom = () => {
     return (
-        <div className='w-full flex gap-5 justify-evenly my-10 md:my-0 md:mt-15'>
+        <div className='w-full flex gap-5 justify-evenly my-10 md:my-0 md:mt-15 btm'>
             <div className='h-fit w-fit flex flex-col items-center'>
                 <div className='text-xl md:text-3xl font-semibold'>1+</div>
                 <div className='text-sm md:text-lg text-gray-600 text-center'>Year <br />learning</div>
