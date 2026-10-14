@@ -6,7 +6,7 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { ArrowUpRight } from 'lucide-react';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 const Footer = () => {
     const navigate = useNavigate();
@@ -39,18 +39,18 @@ const Footer = () => {
 
                 <div className='h-fit w-full flex flex-wrap justify-center gap-2 md:gap-5 mt-8 pb-8'>
 
-                    <a href='https://github.com/areebbaig580' className='h-fit w-fit px-2 py-2 bg-white rounded-2xl flex gap-1 items-center cursor-pointer'>
+                    <Link to={'https://github.com/areebbaig580'} target='_blank' className='h-fit w-fit px-2 py-2 bg-white rounded-2xl flex gap-1 items-center cursor-pointer'>
                         <FontAwesomeIcon icon={faGithub} />
                         <div>Github</div>
-                    </a>
-                    <a href='' className='h-fit w-fit px-2 py-2 bg-white rounded-2xl flex gap-1 items-center cursor-pointer'>
+                    </Link>
+                    <Link  className='h-fit w-fit px-2 py-2 bg-white rounded-2xl flex gap-1 items-center cursor-pointer'>
                         <FontAwesomeIcon icon={faLinkedin} />
                         <div>Linkedin</div>
-                    </a>
-                    <a href='https://instagram.com/axreeb._' className='h-fit w-fit px-2 py-2 bg-white rounded-2xl flex gap-1 items-center cursor-pointer'>
+                    </Link>
+                    <Link to={'https://instagram.com/axreeb._'} target='_blank' className='h-fit w-fit px-2 py-2 bg-white rounded-2xl flex gap-1 items-center cursor-pointer'>
                         <FontAwesomeIcon icon={faInstagram} />
                         <div>Instagram</div>
-                    </a>
+                    </Link>
 
                 </div>
             </div>

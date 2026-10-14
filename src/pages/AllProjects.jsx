@@ -17,7 +17,7 @@ const AllProjects = () => {
                 "Detailed movie information",
                 "Genre-based browsing",
                 "Watchlist management",
-                "Streaming provider links",
+                "Streaming provider Info",
                 "Responsive UI",
                 "Loading & error states"
             ],
@@ -26,7 +26,6 @@ const AllProjects = () => {
                 "JavaScript",
                 "Tailwind CSS",
                 "TMDB API",
-                "JustWatch",
                 "React Router"
             ],
             liveLink: "https://movies-hub-vert-xi.vercel.app/",
@@ -170,7 +169,7 @@ const AllProjects = () => {
         }
     ];
     return (
-        <div className='min-h-[100vh] w-full px-2 md:px-4'>
+        <div className='min-h-screen w-full px-2 md:px-4'>
             <div className='flex px-4 py-2 h-fit w-full items-center justify-between border-b-1 border-gray-300 fixed top-0 left-0 bg-white z-100'>
                 <Brand />
             </div>

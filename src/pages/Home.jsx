@@ -22,7 +22,7 @@ const Home = () => {
     }, [location, navigate]);
 
     return (
-        <div className='min-h-[100vh] w-full flex flex-col overflow-hidden' id='home'>
+        <div className='h-fit w-full flex flex-col overflow-hidden' id='home'>
             <Nav />
             <HeroSection />
             <Projects />

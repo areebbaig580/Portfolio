@@ -23,7 +23,7 @@ const Form = () => {
     }
 
     return (
-        <form ref={form} onSubmit={sendEmail} className='h-fit w-full md:w-[40vw] mt-5 md:mt-0 md:mr-30 flex flex-col gap-8'>
+        <form ref={form} onSubmit={sendEmail} className='h-fit w-full md:w-[40vw]  mt-5 md:mt-0 md:mr-15 lg:mr-20 xl:mr-30 flex flex-col gap-8'>
             <div className='border-b border-gray-300 flex flex-col gap-2 px-2'>
                 <div className='md:text-xl font-semibold'>Your Name</div>
                 <input type="text" className='w-full outline-none border-none mb-2 md:mb-4 md:text-xl' name='name' placeholder='Full Name' required/>

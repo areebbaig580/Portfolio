@@ -3,13 +3,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const About = () => {
   return (
-    <div className='min-h-[100vh] w-full md:px-2 md:px-10 scroll-mt-18 md:scroll-mt-12' id='about'>
+    <div className='h-fit w-full md:px-4 lg:px-10 scroll-mt-18 md:scroll-mt-12 pb-10' id='about'>
       <div className='uppercase text-4xl md:text-6xl font-semibold mb-5'>About Me</div>
       <div className='flex flex-col '>
         <div className='flex flex-col md:flex-row justify-evenly gap-2'>
 
-          <img src="/profile.jpeg" alt="" className='hidden md:flex h-[30vh] md:w-[14vw] md:h-fit rounded-2xl object-cover object-center ' />
-          <div className='w-full md:w-[69vw] flex flex-col gap-5 md:gap-2'>
+          <img src="/profile.jpeg" alt="" className='hidden lg:flex h-[30vh] md:w-[14vw] md:h-fit rounded-2xl object-cover object-center ' />
+          <div className='w-full lg:w-[69vw] flex flex-col gap-5 md:gap-2'>
 
             <div className='md:text-lg border-l px-2 h-fit border-[#999999]'>Hi, I'm Areeb Beg, a B.Tech Computer Science Engineering student at IILM University and a passionate Frontend Developer from India.</div>
 
@@ -24,18 +24,18 @@ const About = () => {
           <div className='text-xl md:text-2xl font-semibold'>Quick Facts</div>
 
           <div className='flex gap-2 justify-evenly h-fit w-full flex-col md:flex-row'>
-            <div className='md:text-lg h-fit w-full md:w-fit px-4 py-2 rounded-xl '>
+            <div className='lg:text-lg h-fit w-full md:w-fit px-4 py-2 rounded-xl'>
               <div className='text-xl font-bold mb-2'>Information</div>
-              <ul className="list-disc list-inside">
+              <ul className="list-disc list-outside">
                 <li>Areeb</li>
                 <li>B.Tech Computer Science Engineering</li>
                 <li>IILM University</li>
                 <li>India</li>
               </ul>
             </div>
-            <div className='md:text-lg h-fit w-full md:w-fit px-4 py-2 rounded-xl '>
+            <div className='lg:text-lg h-fit w-full md:w-fit px-4 py-2 rounded-xl '>
               <div className='text-xl font-bold mb-2'>Interests</div>
-              <ul className="list-disc list-inside">
+              <ul className="list-disc list-outside">
                 <li>Frontend Development</li>
                 <li> UI/UX Design</li>
                 <li>Productivity Systems</li>
@@ -43,9 +43,9 @@ const About = () => {
                 <li>Travelling</li>
               </ul>
             </div>
-            <div className='md:text-lg h-fitw-full md:w-fit px-4 py-2 rounded-xl'>
+            <div className='lg:text-lg h-fitw-full md:w-fit px-4 py-2 rounded-xl'>
               <div className='text-xl font-bold mb-2'>Current Goals</div>
-              <ul className="list-disc list-inside">
+              <ul className="list-disc list-outside">
 
                 <li>Landing a Frontend Internship</li>
                 <li>AI Integration in Projects</li>
