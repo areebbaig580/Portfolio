@@ -84,7 +84,7 @@ const AllProjects = () => {
             ],
             liveLink: "https://habitly-areeb-baig.vercel.app/",
             repoLink: "https://github.com/areebbaig580/Habitly",
-            bottomRightPanel: "2026 • React • Responsive"
+            bottomRightPanel: "2026 • HTML/CSS/JS • Responsive"
         },
 
         {
