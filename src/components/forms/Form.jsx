@@ -8,7 +8,7 @@ const Form = () => {
         e.preventDefault();
         emailjs
             .sendForm('service_30nhlcp', 'template_wb8i6fn', form.current, {
-                publicKey: 'V2pCxeKOYQAhvxYru',
+                publicKey: import.meta.env.VITE_EMAIL_KEY,
             })
             .then(
                 () => {
